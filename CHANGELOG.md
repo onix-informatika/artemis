@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## Unreleased
+
+- Align gql stack with graphql_flutter 5.2.x (gql_dedupe_link ^2.0.3 and gql 1.x packages)
+- Require Dart 3.9 with analyzer 8.x/source_gen <5 for compatibility with newer toolchains
+
 ## 7.13.1
 
 - Move `beta` version out of beta for pub.dev awareness
