@@ -55,20 +55,22 @@ Artemis is a code generator that looks for `schema.graphql` (GraphQL SDL - Schem
 ---
 
 ## **Installation**
+Requires Dart SDK `>=3.8.0 <4.0.0`.
+
 Add the following to your `pubspec.yaml` file to be able to do code generation:
 ```yaml
 dev_dependencies:
-  artemis: '>=7.0.0 <8.0.0'
-  build_runner: ^2.1.4
-  json_serializable: ^6.0.1
+  artemis: '>=7.13.1 <8.0.0'
+  build_runner: ^2.7.2
+  json_serializable: ^6.11.2
 ```
 The generated code uses the following packages in run-time:
 ```yaml
 dependencies:
-  artemis: '>=8.0.0 <8.0.0' # only if you're using ArtemisClient!
-  json_annotation: ^4.3.0
-  equatable: ^2.0.3
-  gql: ^0.13.1-alpha
+  artemis: ^7.13.1 # only if you're using ArtemisClient!
+  json_annotation: ^4.9.0
+  equatable: ^2.0.5
+  gql: ^1.0.1
 ```
 
 Then run:

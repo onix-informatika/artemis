@@ -2,7 +2,7 @@ import 'package:artemis/generator/data/definition.dart';
 import 'package:artemis/generator/data/enum_value_definition.dart';
 import 'package:artemis/generator/data_printer.dart';
 import 'package:artemis/generator/helpers.dart';
-import 'package:recase/recase.dart';
+import 'package:artemis/recase.dart';
 
 /// Define a Dart enum parsed from GraphQL schema.
 class EnumDefinition extends Definition with DataPrinter {

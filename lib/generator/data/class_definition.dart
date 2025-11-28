@@ -3,7 +3,7 @@ import 'package:artemis/generator/data/definition.dart';
 import 'package:artemis/generator/data/fragment_class_definition.dart';
 import 'package:artemis/generator/data_printer.dart';
 import 'package:artemis/generator/helpers.dart';
-import 'package:recase/recase.dart';
+import 'package:artemis/recase.dart';
 
 /// Define a Dart class parsed from GraphQL type.
 class ClassDefinition extends Definition with DataPrinter {

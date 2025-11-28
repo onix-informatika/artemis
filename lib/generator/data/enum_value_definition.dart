@@ -1,6 +1,6 @@
 import 'package:artemis/generator/data/definition.dart';
 import 'package:artemis/generator/data_printer.dart';
-import 'package:recase/recase.dart';
+import 'package:artemis/recase.dart';
 
 /// Enum value
 class EnumValueDefinition extends Definition with DataPrinter {
